@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link id="style" rel="stylesheet" href="style.css">
+        <title></title>
+        
+
+    </head>
+
+    <body>
+
+        <div class="announcement">
+        
+            <p>This page is under construction. Please take a number and check back later.</p>
+
+            <p><button onclick="document.getElementById('number').innerHTML = getRndInteger(0,1000); this.onclick=null;">Your number:</button> <span id="number"></span></p>
+
+        </div>
+
+    </body>
+
+    <script>
+
+        function getRndInteger(min, max) {
+        return Math.floor(Math.random() * (max - min + 1) ) + min;
+        }
+
+    </script>
+
+</html>

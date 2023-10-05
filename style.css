@@ -1,0 +1,74 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-image: url(images/DSC_0217@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-position: center, center;
+    background-attachment: fixed;
+}
+
+.announcement {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    width:auto;
+    min-width: 190px;    
+    
+    background-color: #f1f2da;
+    padding: 2em;
+    
+    border-style: double;
+    border-color: #3f6c76;
+}
+
+p {
+    color: #00303b;
+}
+
+p:first-of-type {
+    margin: 0 0 10px 0;
+}
+
+
+button {
+    border-radius: 0%;
+    border: none;
+    background-color: #3f6c76;
+    padding: 3px 6px;
+    color: #f1f2da;
+}
+
+/* a:link {
+    color: #ff7777;
+    text-decoration: none;
+    background: transparent;
+}
+
+a:hover {
+    color: #ff7777;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+a:active {
+    color: #ff7777;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+a:visited {
+    color: #ff7777;
+} */
